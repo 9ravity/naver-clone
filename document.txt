@@ -1,0 +1,5 @@
+레이아웃 tip
+1. row로 먼저 나누기,(header, main, footer)
+2. 최대한 row를 세세하게 나누기(header, nav, main, content, footer)
+3. row을 나눌 수 없으면 column으로 나누기
+4. 애매할때는 무조건 row 먼저 생각하기
