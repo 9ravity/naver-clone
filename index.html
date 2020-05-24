@@ -4,20 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?1" />
+    <link rel="stylesheet" href="./naver.css" />
     <title>Naver</title>
   </head>
   <body>
-    <header>
-      <h1><a href="/">네이버</a></h1>
-      <!-- 부가정도 href 같은 것들은 attribute라고 한다 -->
-      <h2>검색창</h2>
-      <fieldset>
-        <legend>검색</legend>
-        <butoon>검색</butoon>
-        <input />
-      </fieldset>
+    <!-- content가 가운데 정렬이 아니라, 구역이 가운데 정렬 margin: 0 auto -->
+    <header class="center-wrap">
+      <div>
+        <span>네이버를 시작 페이지로</span>
+        <span>네이버 주니어</span>
+        <span>네이버 해피빈</span>
+        <div id="header-search">
+          <!-- 부가정보 href 같은 것들은 attribute라고 한다 -->
+          <a href="/">
+            <h1>
+              <span>네이버</span>
+            </h1>
+          </a>
+          <h2 class="blind">검색창</h2>
+          <fieldset>
+            <legend class="blind">검색</legend>
+            <input />
+            <button>
+              <span class="blind">검색</span>
+              <span id="search-image"></span>
+            </button>
+          </fieldset>
+        </div>
+      </div>
     </header>
-    <nav>
+    <nav class="center-wrap">
       <ul>
         <li>메일</li>
         <li>카페</li>
@@ -38,8 +54,24 @@
       </ol>
       <h3>언론사 목록</h3>
       <ul>
-        <li><img src="./news1.png" alt="한국일보" /></li>
-        <li><img src="./news2.png" alt="조선이롭" /></li>
+        <li><img src="./과학동아.png" alt="과학동아" /></li>
+        <li><img src="./한국일보.png" alt="한국일보" /></li>
+        <li><img src="./osen.png" alt="osen" /></li>
+        <li><img src="./매일경제.png" alt="매일경제" /></li>
+        <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+        <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
+        <li><img src="./과학동아.png" alt="과학동아" /></li>
+        <li><img src="./한국일보.png" alt="한국일보" /></li>
+        <li><img src="./osen.png" alt="osen" /></li>
+        <li><img src="./매일경제.png" alt="매일경제" /></li>
+        <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+        <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
+        <li><img src="./과학동아.png" alt="과학동아" /></li>
+        <li><img src="./한국일보.png" alt="한국일보" /></li>
+        <li><img src="./osen.png" alt="osen" /></li>
+        <li><img src="./매일경제.png" alt="매일경제" /></li>
+        <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+        <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
       </ul>
       <h3>로그인</h3>
       <h3>뉴스</h3>

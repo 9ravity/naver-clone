@@ -3,3 +3,29 @@
 2. 최대한 row를 세세하게 나누기(header, nav, main, content, footer)
 3. row을 나눌 수 없으면 column으로 나누기
 4. 애매할때는 무조건 row 먼저 생각하기
+
+div는 무조건 block이기 때문에 옆으로 옮기려면, inline 사용해야함
+
+display : block -> width 100% 차지함, inline -> 딱 content만 차지함, inline-block -> width, height 지정 가능
+
+background-repeat : 기본적으로 repeat -> 공간보다 이미지가 작으면 이미지 바둑판 정렬
+                            no-repeat -> 공간보다 이미지가 작아도 1개의 이미지만 나옴
+
+a 태그 밑줄,-> text-decoration:none;
+
+css는 위에서 아래로 왼쪽에서 오른쪽으로 작업
+
+붙길 원하는 곳에 position: relative; : 부모태그
+                position: absolute;
+                right: 0;
+                top: 0;             : 자식태그
+
+positon-> containing 블럭을 찾는다. > mdn 컨테이닝 블럭
+기본은 static임,
+
+span은 딱 contents 만큼의 사이즈를 갖기 때문에, inline-block으로 변경 필요
+css 우선 순위 case cading
+!important 왕 !
+#아이디 금메달
+.클래스 은메달
+tag 태그 동메달
